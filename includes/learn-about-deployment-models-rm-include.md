@@ -1,0 +1,1 @@
+> [AZURE.NOTE] Azure har to forskellige installation modeller til oprettelse og arbejde med ressourcer: [ressourcestyring og klassisk](../articles/resource-manager-deployment-model.md).  I denne artikel omhandler ved hjælp af Ressourcestyring installation modellen, som Microsoft anbefaler til de fleste nye installationer i stedet for den

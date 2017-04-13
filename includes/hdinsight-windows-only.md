@@ -1,0 +1,1 @@
+> [AZURE.NOTE] Oplysningerne i dette dokument gælder kun for Windows-baseret HDInsight klynger.

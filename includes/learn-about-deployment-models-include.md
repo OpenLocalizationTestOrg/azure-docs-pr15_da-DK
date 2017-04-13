@@ -1,0 +1,1 @@
+> [AZURE.IMPORTANT] Før du arbejder med Azure ressourcer, Bliv fortrolig med installation modeller: [ressourceleder, og klassisk](../articles/resource-manager-deployment-model.md).

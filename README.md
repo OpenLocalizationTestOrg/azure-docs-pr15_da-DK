@@ -1,122 +1,121 @@
-# Azure Technical Documentation Contributor Guide
+# <a name="azure-technical-documentation-contributor-guide"></a>Azure tekniske dokumentation bidragyder vejledning
 
-You've found the GitHub repository that houses the source for the technical documentation that is published to the Azure Documentation Center at [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation).
+Du har fundet det GitHub lager, som indeholder kilden til den tekniske dokumentation, der er publiceret til Azure dokumentation Center på [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation).
 
-This repository also contains guidance to help you contribute to our technical documentation.  For a list of the articles in the contributors' guide, see [the index](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).
+Denne lager indeholder også vejledning for at hjælpe dig med at bidrage til vores tekniske dokumentation.  Du kan finde en liste over artiklerne i den bidragydere vejledning [indekset](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).
 
-## Contribute to Azure documentation
+## <a name="contribute-to-azure-documentation"></a>Bidrage til Azure dokumentation
 
-Thank you for your interest in Azure documentation!
+Tak for interessen i dokumentationen til Azure!
 
-* [Ways to contribute](#ways-to-contribute)
-* [Code of conduct](#code-of-conduct)
-* [About your contributions to Azure content](#about-your-contributions-to-azure-content)
-* [Repository organization](#repository-organization)
-* [Use GitHub, Git, and this repository](#use-github-git-and-this-repository)
-* [How to use markdown to format your topic](#how-to-use-markdown-to-format-your-topic)
-* [Feedback, comments, and support](./contributor-guide/feedback-and-comments.md)
-* [More resources](#more-resources)
-* [Index of all contributors' guide articles](./contributor-guide/contributor-guide-index.md) (opens new page)
+* [Måder til at bidrage](#ways-to-contribute)
+* [Koden for lede](#code-of-conduct)
+* [Om dit bidrag til Azure indhold](#about-your-contributions-to-azure-content)
+* [Lager organisation](#repository-organization)
+* [Brug af GitHub, ciffer og denne lager](#use-github-git-and-this-repository)
+* [Sådan bruges tabsbeløb til at formatere dit emne](#how-to-use-markdown-to-format-your-topic)
+* [Feedback, kommentarer og support](./contributor-guide/feedback-and-comments.md)
+* [Flere ressourcer](#more-resources)
+* [Indeks over alle bidragydere vejledning artikler](./contributor-guide/contributor-guide-index.md) (åbner ny side)
 
-## Ways to contribute 
+## <a name="ways-to-contribute"></a>Måder til at bidrage 
 
-You can contribute to [Azure documentation](http://azure.microsoft.com/documentation/) in a few different ways:
+Du kan bidrage til [Azure dokumentation](http://azure.microsoft.com/documentation/) på et par forskellige måder:
 
-* Contribute to a [forum discussion](http://social.msdn.microsoft.com/Forums/windowsazure/home).
-* Submit Disqus comments at the bottom of articles.
-* You can easily contribute to technical articles in the GitHub user interface. Either find the article in this repository, or visit the article on [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation) and click the link in the article that goes to the GitHub source for the article.
-* If you are making substantial changes to an existing article, adding or changing images, or contributing a new article, you need to fork this repository, install Git Bash, Markdown Pad, and learn some git commands.
+* Bidrage til et [forum diskussion](http://social.msdn.microsoft.com/Forums/windowsazure/home).
+* Send Disqus kommentarer i bunden af artikler.
+* Du kan nemt at bidrage til tekniske artikler i brugergrænsefladen GitHub. Finde i artiklen i lageret, eller finde artiklen på [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation) og klikke på linket i artiklen, der går til GitHub kilde til artiklen.
+* Hvis du foretager væsentlige ændringer i en eksisterende artikel, skal tilføje eller ændre billeder eller bidrager en ny artikel, du deler sig denne lager, installere ciffer fest, tabsbeløb tastatur, og lær nogle ciffer kommandoer.
 
-##Code of conduct
+##<a name="code-of-conduct"></a>Koden for lede
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Dette projekt har vedtaget [Microsoft Open Source kode af forestå](https://opensource.microsoft.com/codeofconduct/). Finde flere oplysninger i [Den kode af forestå ofte stillede spørgsmål](https://opensource.microsoft.com/codeofconduct/faq/) eller kontakt [opencode@microsoft.com](mailto:opencode@microsoft.com) med yderligere spørgsmål eller kommentarer.
 
-##About your contributions to Azure content
+##<a name="about-your-contributions-to-azure-content"></a>Om dit bidrag til Azure indhold
 
-###Minor corrections
+###<a name="minor-corrections"></a>Mindre rettelser
 
-Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the [Azure Website Terms of Use (ToU)](http://azure.microsoft.com/support/legal/website-terms-of-use/).
+Mindre rettelser eller beskrivelser af en lang du sender til dokumentation og kode eksemplerne i denne repo er dækket af [Azure websted vilkår for anvendelse (ToU)](http://azure.microsoft.com/support/legal/website-terms-of-use/).
 
 
-###Larger submissions
+###<a name="larger-submissions"></a>Større indsendelser
 
-If you submit a pull request with new or significant changes to documentation and code examples, we'll send a comment in GitHub asking you to submit an online Contribution License Agreement (CLA) if you are in one of these groups:
+Hvis du sender en anmodning om hente med nye eller væsentlige ændringer til dokumentation og kodeeksempler, sender vi en kommentar i GitHub beder dig om at sende en online bidrag licens aftale (CLA), hvis du er i en af disse grupper:
 
-* Members of the Microsoft Open Technologies group.
-* Contributors who don't work for Microsoft.
+* Medlemmer af gruppen Microsoft Open-teknologier.
+* Bidragydere, der ikke fungerer for Microsoft.
 
-We need you to complete the online form before we can accept your pull request.
+Vi har brug for at fuldføre formularen online, før vi kan acceptere din anmodning om hente.
 
-Full details are available at [http://azure.github.io/guidelines/#cla](http://azure.github.io/guidelines/#cla).
+Detaljerede oplysninger er tilgængelige på [http://azure.github.io/guidelines/#cla](http://azure.github.io/guidelines/#cla).
 
-## Repository organization
+## <a name="repository-organization"></a>Lager organisation
 
-The content in the azure-content repository follows the organization of documentation on [Azure.Microsoft.com](http://azure.microsoft.com). This repository contains two root folders:
+Indholdet i azure-indhold lager følger tilrettelæggelse af dokumentation på [Azure.Microsoft.com](http://azure.microsoft.com). Denne lager indeholder to rod mapper:
 
-### \articles
+### <a name="articles"></a>\articles
 
-The *\articles* folder contains the documentation articles formatted as markdown files with an *.md* extension.
+Mappen *\articles* indeholder dokumentation artiklerne formateret som tabsbeløb filer med filtypenavnet *.md* .
 
-Articles in the root directory are published to Azure.Microsoft.com in the path *http://azure.microsoft.com/documentation/articles/{article-name-without-md}/*.
+Artikler i rodmappe er udgivet på Azure.Microsoft.com i stien *http://azure.microsoft.com/documentation/articles/ {artikel-navn-uden-md} /*.
 
-* **Article filenames:** See [our file naming guidance](./contributor-guide/file-names-and-locations.md).
+* **Artikel filnavne:** Se [vores navngive vejledning-fil](./contributor-guide/file-names-and-locations.md).
 
-Articles within their own service folder are published to Azure.Microsoft.com in the path
-*http://azure.microsoft.com/documentation/articles/service-folder/{article-name-without-md}/*
+Artikler i deres egen service-mappe er udgivet på Azure.Microsoft.com i stien *http://azure.microsoft.com/documentation/articles/service-folder/ {artikel-navn-uden-md} /*
 
-* **Media subfolders:** The *\articles* folder contains the *\media* folder for root directory article media files, inside which are subfolders with the images for each article.  The service folders contain a separate media folder for the articles within each service folder. The article image folders are named identically to the article file, minus the *.md* file extension.
+* **Medier undermapper:** Mappen *\articles* indeholder mappen *\media* for rod directory artikel mediefiler, i, som er undermapper med billeder til hver artikel.  Tjenesten mapperne indeholder en separat medier mappe til artikler i hver Tjenestemappe. Artikel billede mapper der navngives identisk med filen artikel minus filtypenavnet *.md* .
 
-### \includes
+### <a name="includes"></a>\includes
 
-You can create reusable content sections to be included in one or more articles. See [Custom extensions used in our technical content](./contributor-guide/custom-markdown-extensions.md).
+Du kan oprette genanvendelige indhold sektioner, der skal medtages i en eller flere artikler. Se [brugerdefineret udvidelser, som bruges i vores technical indhold](./contributor-guide/custom-markdown-extensions.md).
 
-### \markdown templates
+### <a name="markdown-templates"></a>\markdown skabeloner
 
-This folder contains our standard markdown template with the basic markdown formatting you need for an article.
+Denne mappe indeholder vores standard tabsbeløb skabelon med den grundlæggende tabsbeløb formatering, du har brug for til en artikel.
 
-### \contributor-guide
+### <a name="contributor-guide"></a>\contributor-guide
 
-This folder contains articles that are part of our contributors' guide.  
+Denne mappe indeholder artikler, der er en del af vores bidragydere vejledning.  
 
-## Use GitHub, Git, and this repository
+## <a name="use-github-git-and-this-repository"></a>Brug GitHub, ciffer samt denne lager
 
-For information about how to contribute, how to use the GitHub UI to contribute small changes, and how to fork and clone the repository for more significant contributions, see [Install and set up tools for authoring in GitHub](./contributor-guide/tools-and-setup.md).
+Finde oplysninger om, hvordan du kan bidrage, hvordan du bruger GitHub UI til at bidrage små ændringer, og hvordan du deler sig og klone lager til vigtigere bidrag [installere og konfigurere værktøjer til redigering i GitHub](./contributor-guide/tools-and-setup.md).
 
-If you install GitBash and choose to work locally, the steps for creating a new local working branch, making changes, and submitting the changes back to the main branch are listed in [Git commands for creating a new article or updating an existing article](./contributor-guide/git-commands-for-master.md)
+Hvis du installerer GitBash, og du vælger at arbejde lokalt, findes trinnene til at oprette en ny lokal arbejde gren, foretager ændringer og sende ændringerne tilbage til den primære gren i [ciffer kommandoer til at oprette en ny artikel eller opdatere en eksisterende artikel](./contributor-guide/git-commands-for-master.md)
 
-### Branches
+### <a name="branches"></a>Grene
 
-We recommend that you create local working branches that target a specific scope of change. Each branch should be limited to a single concept/article both to streamline work flow and reduce the possibility of merge conflicts.  The following efforts are of the appropriate scope for a new branch:
+Vi anbefaler, at du opretter lokale arbejde forgreninger, der fokuserer på et bestemt område ændring. Hver gren skal være begrænset til en enkelt konceptet/artikel både til at strømline arbejdsgang og mindske risikoen for Flet konflikter.  De følgende bestræbelser er på det relevante område til en ny gren:
 
-* A new article (and associated images)
-* Spelling and grammar edits on an article.
-* Applying a single formatting change across a large set of articles (e.g. new copyright footer).
+* En ny artikel (og tilknyttede billeder)
+* Stavning og grammatik ændringer på en artikel.
+* Anvende en enkelt formateringsændringer på tværs af et stort antal artikler (fx ny copyright sidefod).
 
-## How to use markdown to format your topic
+## <a name="how-to-use-markdown-to-format-your-topic"></a>Sådan bruges tabsbeløb til at formatere dit emne
 
-All the articles in this repository use GitHub flavored markdown.  Here's a list of resources.
+Alle artikler i denne lager Brug GitHub flavored tabsbeløb.  Her er en liste over ressourcer.
 
-- [Markdown basics](https://help.github.com/articles/markdown-basics/)
+- [Grundlæggende om tabsbeløb](https://help.github.com/articles/markdown-basics/)
 
-- [Printable markdown cheatsheet](./contributor-guide/media/documents/markdown-cheatsheet.pdf?raw=true)
+- [Der kan udskrives tabsbeløb cheatsheet](./contributor-guide/media/documents/markdown-cheatsheet.pdf?raw=true)
 
-- For our list of markdown editors, see the [tools and setup topic](./contributor-guide/tools-and-setup.md#install-a-markdown-editor).
+- Se vores liste over tabsbeløb editors, [værktøjer og konfiguration af emne](./contributor-guide/tools-and-setup.md#install-a-markdown-editor).
 
-## Article metadata
+## <a name="article-metadata"></a>Artikel metadata
 
-Article metadata enables certain functionalities on the azure.microsoft.com web site, such as author attribution, contributor attribution, breadcrumbs, article descriptions, and SEO optimizations as well as reporting Microsoft uses to evaluate the performance of the content. So, the metadata is important! [Here's the guidance for making sure your metadata is done right](./contributor-guide/article-metadata.md).
+Artikel metadata gør det muligt for bestemte funktioner på webstedet azure.microsoft.com, som forfatter afskrivningen, bidragyder afskrivningen, brødkrummer, artikel beskrivelser og SEO optimeringer samt rapportering Microsoft bruger til at vurdere ydeevnen for indholdet. Så er metadata, der vigtigt! [Her er retningslinjer for at sikre, at metadata for din udføres korrekt](./contributor-guide/article-metadata.md).
 
-### Labels
+### <a name="labels"></a>Etiketter
 
-Automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
+Automatiseret etiketter er tildelt til at hente anmodninger om at hjælpe os med at administrere hente anmodning om arbejdsprocessen og hjælpe fortæller dig, hvad der foregår med din hente anmodning:
 
-* Contribution License Agreement related
-    * cla-not-required: The change is relatively minor and does not require that you sign a CLA.
-    * cla-required: The scope of the change is relatively large and requires that you sign a CLA.
-    * cla-signed: The contributor signed the CLA, so the pull request can now move forward for review.
-* Pillar labels: Labels such as PnP, Modern Apps, and TDC help categorize the pull requests by the internal organization that needs to review the pull request.
-* Change sent to author: The author has been notified of the pending pull request.
+* Bidrag licensaftalen relateret
+    * CLA ikke påkrævet: ændringen er relativt mindre og ikke kræver, at du logger en CLA.
+    * CLA påkrævet: omfanget af ændringen er relativt stor og kræver, at du logger en CLA.
+    * CLA-signerede: bidragyder logget Indstilles, så hente anmodningen kan nu flytte frem til gennemsyn.
+* Søjle etiketter: etiketter PnP f.eks., moderne Apps og TDC Hjælp kategoriseret hente anmodninger ved den interne organisation, der skal gennemgå hente anmodningen.
+* Ændre sendes til forfatternavn: forfatteren har modtaget meddelelse om ventende hente anmodningen.
 
-## More resources
+## <a name="more-resources"></a>Flere ressourcer
 
-See the [index of our contributor's guide](./contributor-guide/contributor-guide-index.md) for all our guidance topics.
+Se alle vores vejledning emner [indeks i vores bidragyder vejledning](./contributor-guide/contributor-guide-index.md) .

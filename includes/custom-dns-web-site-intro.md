@@ -1,0 +1,1 @@
+Når du opretter en online, Microsoft Azure indeholder et brugervenligt underdomæne på azurewebsites.net domænet, så brugerne kan få adgang til din online ved hjælp af en URL, såsom http://&lt;mywebapp&gt;. azurewebsites.net. Du kan også knytte et brugerdefineret domænenavn, som contoso.com, til din online for at angive et lettere genkendeligt domænenavn for dine brugere.

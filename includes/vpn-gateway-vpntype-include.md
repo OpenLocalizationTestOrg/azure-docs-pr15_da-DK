@@ -1,0 +1,7 @@
+- **PolicyBased:** PolicyBased VPN'er blev tidligere kaldt statisk routing gateways i modellen, klassisk installation. Baseret på politik VPN'er kryptere og direkte pakker gennem IPSec-tunneler baseret på de IPSec-politikker, der er konfigureret med kombinationerne af adressepræfikser mellem dit lokale netværk og Azure VNet. Politik (eller trafik Datavælger) er normalt defineret som en access-liste i konfigurationen af VPN-enheden. Værdien for typen PolicyBased VPN er *PolicyBased*. Når du bruger en PolicyBased VPN, huske følgende begrænsninger:
+
+    - PolicyBased VPN'er kan **kun** anvendes på gatewayen grundlæggende SKU. Denne VPN-type er ikke kompatibel med andre gateway lagerenheder.
+    - Du kan have kun 1 tunnel, når du bruger en PolicyBased VPN.
+    - Du kan kun bruge PolicyBased VPN til S2S forbindelser, og kun for visse konfigurationer. De fleste VPN-Gateway-konfigurationer kræver en RouteBased VPN.
+
+- **RouteBased**: RouteBased VPN'er tidligere blev kaldt dynamiske routing gateways i modellen, klassisk installation. RouteBased VPN bruger "omdirigerer" i IP videresender eller routing tabel til direkte pakker til deres tilsvarende tunnel grænseflader. Tunnel grænseflader derefter kryptere eller dekryptere pakkerne og tunneler. Politik (eller trafik Datavælger) til RouteBased VPN er konfigureret som en-til-alle (eller jokertegn). Værdien for typen RouteBased VPN er *RouteBased*.

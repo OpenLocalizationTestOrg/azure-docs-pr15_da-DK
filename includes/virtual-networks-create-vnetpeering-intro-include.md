@@ -1,0 +1,1 @@
+VNet Peering er en metode til at oprette forbindelse to virtuelle netværk i det samme område via netværket Azure grundlæggende element. Når peered, vises de to virtuelle netværk som en enkelt virtuelt netværk for alle connectivity formål. Læs [VNet Peering oversigt](../articles/virtual-network/virtual-network-peering-overview.md) , hvis du ikke kender med VNet Peering.

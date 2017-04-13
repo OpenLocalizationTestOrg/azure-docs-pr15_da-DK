@@ -1,0 +1,1 @@
+Når du bruger en Microsoft Azure trafik Manager for at indlæse balance trafik til webstedet Azure, dette websted kan derefter åbnes ved hjælp af den ** \*. trafficmanager.net** domænenavn, der er tildelt af Azure. Du kan også knytte et brugerdefineret domænenavn, som www.contoso.com, til dit websted for at angive et lettere genkendeligt domænenavn for dine brugere.

@@ -1,0 +1,3 @@
+Azure-funktioner er en hændelsesstyret og Beregn on demand brugeroplevelse, der udvider den eksisterende platform Azure-program med funktioner til at implementere kode udløses af hændelser i andre Azure services, SaaS produkter og lokale systemer. Dine programmer skalere efter behov med Azure-funktioner, og du betaler kun for de ressourcer, du forbruger. Azure funktioner giver en intuitiv, browserbaseret brugergrænseflade, så du kan oprette planlagt eller udløste programkode, der er implementeret i en række programmeringssprog. 
+
+I denne introduktionsvideo viser, hvordan du opretter en funktionen app, ændre koden, samt hvordan du kan arbejde med udløsere og bindinger.

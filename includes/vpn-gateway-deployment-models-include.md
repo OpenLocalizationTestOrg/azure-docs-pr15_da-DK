@@ -1,0 +1,5 @@
+Det er vigtigt at forstå, Azure aktuelt arbejder med to installation modeller: ressourcestyring og klassisk. Før du starter konfigurationen, skal du bekræfte, at du bruger instruktionerne til installation-modellen, som du vil arbejde. De to modeller er ikke helt kompatible med hinanden.
+
+Hvis du arbejder med et virtuelt netværk, der blev oprettet ved hjælp af modellen Klassisk installation og gerne vil føje en forbindelse til VNet, skal du bruge metoderne installation, der svarer til den klassiske implementeringsmodel ikke ressourcestyring. Hvis du arbejder med et virtuelt netværk, der blev oprettet ved hjælp af Ressourcestyring implementeringsmodel, vil du bruge metoderne installation, der svarer til Ressourcestyring, ikke klassisk.
+
+Finde oplysninger om installation modeller, skal du se [om ressourcestyring installation og klassisk installation](../articles/resource-manager-deployment-model.md).
