@@ -1,0 +1,3 @@
+En Azure indre Belastningskontrollen (ILB) indeholder netværksbelastning mellem virtuelle maskiner, der er placeret inde i en cloud-tjeneste eller et virtuelt netværk med et regionalt område.
+
+Du kan finde oplysninger om brug og konfiguration af virtuelt netværk med internationale området [Internationale virtuelle netværk](../articles/virtual-network/virtual-networks-migrate-to-regional-vnet.md). Eksisterende virtuelle netværk, der er konfigureret for en gruppe tilhørsforhold kan ikke bruge ILB.
