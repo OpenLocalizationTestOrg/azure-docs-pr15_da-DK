@@ -1,0 +1,3 @@
+### <a name="azure-resource-manager-and-azure-service-management"></a>Azure ressourcestyring og Azure Service Management
+ 
+Denne artikel gælder for en Azure ressource, der er oprettet i Resource Manager, som Microsoft anbefaler over en ressource, der er oprettet i Service Management. Se [Azure beregne, netværk og lagerplads udbydere under Azure ressourcestyring](../articles/virtual-machines/virtual-machines-windows-compare-deployment-models.md)indeholder en beskrivelse af fordelene af Ressourcestyring. For at udføre den samme opgave for en ressource, der er oprettet med Azure Service Management skal du se følgende artikel:

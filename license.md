@@ -1,0 +1,7 @@
+Copyright (c) Microsoft Corporation.  Distribueret i henhold til følgende:
+ 
+1. Microsoft og en hvilken som helst bidragydere til dette projekt giver dig en licens, under dens respektive ophavsrettigheder til Microsoft Azure dokumentation under [Creative Commons afskrivningen 3.0 USA-licens](http://creativecommons.org/licenses/by/3.0/us/legalcode).  Desuden i forhold til nogen eksempelkode, der er indeholdt i dokumentationen, tildeler Microsoft og sådanne bidragydere du en ekstra licens under dens respektive intellektuel ejendomsret, bruge koden til at udvikle eller designe din software til Microsoft Azure.
+ 
+2.  Microsoft, Windows, Microsoft Azure og/eller andre Microsoft-produkter og tjenester, der refereres til i dokumentationen kan være enten varemærker eller registrerede varemærker tilhørende Microsoft i USA og/eller andre lande. Denne licens giver dem ikke ret til at bruge en hvilken som helst navne, logoer eller varemærker. Gå til [http://go.microsoft.com/fwlink/?LinkID=254653](http://go.microsoft.com/fwlink/?LinkID=254653)for Microsofts generelle varemærker retningslinjer.
+ 
+3.  Microsoft og de bidragydere reserver alle andre rettigheder, om under ophavsrettigheder, patenter eller varemærker eller vil sige, estoppel eller på anden måde.
